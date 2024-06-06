@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "inlineSourceMap": true,
     "inlineSources": true,
@@ -19,6 +21,9 @@
     ]
   },
   "include": [
-    "**/*.ts"
+    "**/*.ts",
+    "**/*.tsx",
+    "src/**/*.tsx",
+    "src/**/*.ts"
   ]
 }
